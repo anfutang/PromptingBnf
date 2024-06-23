@@ -7,7 +7,8 @@ please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
         
   import pandas as pd
 Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:11,  3.76s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  3.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  2.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.08s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.35s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.57s/it]
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.

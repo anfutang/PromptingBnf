@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --partition=funky 
 #SBATCH --nodelist=edwards
-#SBATCH --job-name=cotzs
+#SBATCH --job-name=b-cotzs
 #SBATCH --nodes=1
 #SBATCH --time=7200
 #SBATCH --gpus-per-node=1
-#SBATCH --output=cotzs.out
-#SBATCH --error=cotzs.err
+#SBATCH --output=b-cotzs.out
+#SBATCH --error=b-cotzs.err
 
 dataset=$1
 

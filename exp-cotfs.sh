@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --partition=funky 
 #SBATCH --nodelist=edwards
-#SBATCH --job-name=cotfs
+#SBATCH --job-name=b-cotfs
 #SBATCH --nodes=1
 #SBATCH --time=7200
 #SBATCH --gpus-per-node=1
-#SBATCH --output=cotfs.out
-#SBATCH --error=cotfs.err
+#SBATCH --output=b-cotfs.out
+#SBATCH --error=b-cotfs.err
 
 dataset=$1
 

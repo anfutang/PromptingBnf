@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --partition=funky
 #SBATCH --nodelist=edwards
-#SBATCH --job-name=fs
+#SBATCH --job-name=b-fs
 #SBATCH --nodes=1
 #SBATCH --time=7200
 #SBATCH --gpus-per-node=1
-#SBATCH --output=fs.out
-#SBATCH --error=fs.err
+#SBATCH --output=b-fs.out
+#SBATCH --error=b-fs.err
 
 dataset=$1
 

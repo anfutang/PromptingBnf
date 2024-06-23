@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --partition=funky
 #SBATCH --nodelist=edwards
-#SBATCH --job-name=atfs
+#SBATCH --job-name=b-atfs
 #SBATCH --nodes=1
 #SBATCH --time=7200
 #SBATCH --gpus-per-node=1
-#SBATCH --output=atfs.out
-#SBATCH --error=atfs.err
+#SBATCH --output=b-atfs.out
+#SBATCH --error=b-atfs.err
 
 dataset=$1
 

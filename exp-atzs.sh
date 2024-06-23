@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --partition=funky
 #SBATCH --nodelist=edwards
-#SBATCH --job-name=atzs
+#SBATCH --job-name=b-atzs
 #SBATCH --nodes=1
 #SBATCH --time=7200
 #SBATCH --gpus-per-node=1
-#SBATCH --output=atzs.out
-#SBATCH --error=atzs.err
+#SBATCH --output=b-atzs.out
+#SBATCH --error=b-atzs.err
 
 dataset=$1
 
