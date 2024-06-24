@@ -1,4 +1,6 @@
 import os
+import time
+import numpy as np
 import pandas as pd
 import json
 import pickle
@@ -52,8 +54,10 @@ if __name__ == "__main__":
 
     ps = []
     for q in queries:
-        p = prompt.replace("{{QUERY}}",q)
+        p = prompt.replace("{{REQUETE}}",q)
         ps.append(p)
+
+    start_time = time.time()
 
     outputs = pipeline(
         ps,
@@ -63,6 +67,10 @@ if __name__ == "__main__":
         temperature=0.6,
         top_k=10,
     )
+
+    end_time = time.time()
+
+    print(f"time elapsed: {end_time-start_time} s: {args.dataset_name}; {args.prompt_type}")
 
     with open(os.path.join(args.output_dir,f"response_{args.dataset_name}_{args.prompt_type}.pkl"),"wb") as f:
         pickle.dump(outputs,f,pickle.HIGHEST_PROTOCOL)
