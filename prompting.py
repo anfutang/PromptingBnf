@@ -12,6 +12,9 @@ from opt import get_args
 if __name__ == "__main__":
     args = get_args()
 
+    if not os.path.exists(args.output_dir):
+        os.makedirs(args.output_dir)
+
     model_id = args.model_name
 
     tokenizer = AutoTokenizer.from_pretrained(model_id,padding_side="left")
