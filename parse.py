@@ -37,10 +37,10 @@ def clean_text(s,s_index):
         indexes = extract_indexes(s)
         if indexes:
             cqs = extract_cqs(s,indexes)
-    elif "il n'y a pas besoin de clarification" in s.lower():
+    elif "il n'y a pas besoin de clarification" in s.lower() or "il n'y a donc pas besoin de clarification" in s.lower() or "pas besoin de clarification" in s.lower():
         cqs = ["[unambiguous]"]
     else:
-        print(f"ERROR markers not found: {s_index}")
+        print(f"ERROR Markers not found and no unambiguity sign: {s_index}")
     return cqs
 
 def clean(docs):
