@@ -1,0 +1,6 @@
+processing finished: 
+	 # failures: 0.
+	 # unambiguous: 57.
+	 # 5 CQs extracted: 443.
+results saved as a pkl file: ./output/cqs_bnf_test_few-shot.pkl
+results saved as a csv file: ./output/df_cqs_bnf_test_few-shot.csv

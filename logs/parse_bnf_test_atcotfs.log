@@ -1,0 +1,36 @@
+ERROR markers not found: 33
+ERROR markers not found: 40
+ERROR markers not found: 43
+ERROR markers not found: 45
+ERROR markers not found: 68
+ERROR markers not found: 80
+ERROR markers not found: 88
+ERROR markers not found: 96
+ERROR markers not found: 122
+ERROR markers not found: 126
+ERROR markers not found: 137
+ERROR markers not found: 176
+ERROR markers not found: 185
+ERROR markers not found: 192
+ERROR markers not found: 194
+ERROR markers not found: 211
+ERROR markers not found: 239
+ERROR markers not found: 240
+ERROR markers not found: 265
+ERROR markers not found: 288
+ERROR markers not found: 321
+ERROR markers not found: 331
+ERROR markers not found: 392
+ERROR markers not found: 396
+ERROR markers not found: 406
+ERROR markers not found: 418
+ERROR markers not found: 438
+ERROR markers not found: 439
+ERROR markers not found: 447
+ERROR markers not found: 454
+processing finished: 
+	 # failures: 30.
+	 # unambiguous: 1.
+	 # 5 CQs extracted: 469.
+results saved as a pkl file: ./output/cqs_bnf_test_AT-CoT-few-shot.pkl
+results saved as a csv file: ./output/df_cqs_bnf_test_AT-CoT-few-shot.csv

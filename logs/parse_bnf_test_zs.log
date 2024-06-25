@@ -1,0 +1,8 @@
+ERROR markers not found: 14
+ERROR markers not found: 76
+processing finished: 
+	 # failures: 2.
+	 # unambiguous: 495.
+	 # 5 CQs extracted: 3.
+results saved as a pkl file: ./output/cqs_bnf_test_zero-shot.pkl
+results saved as a csv file: ./output/df_cqs_bnf_test_zero-shot.csv
